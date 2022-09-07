@@ -1,0 +1,190 @@
+
+header{
+    background-image: url(header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   background-position: center;
+   opacity: 0.9;
+   
+}
+
+#title{
+    color: #F2B90F;
+    text-align: center;
+    font-family: Qwitcher Grypen , Satisfy;
+    font-size: 75px;
+    padding-top: 30px;
+}
+
+#company-logo{
+    border-radius: 100%;
+    size: 100px;
+   margin-left: 200px;
+   margin-bottom: 100px;
+   max-width: 100px;
+   position: absolute;
+   top: 100px;
+   right:450px;
+   opacity: 1;
+}
+
+button{
+    color: #F2B90F;
+    background-color: #5E8C5D;
+   
+}
+
+#log-in{
+   font-family: EB Garamond;
+   font-size: 20px;
+   width: 100px;
+   border-radius: 30px;
+   height: 50px;
+   margin-left: 400px;
+   font-weight: 600;
+}
+
+#sign-up{
+    font-family: EB Garamond;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 30px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.button-space{
+    display: inline-block;
+    margin-inline: 50px;
+}
+
+label{ 
+    color: #F2B90F;
+    font-family: EB Garamond;
+    font-size: 30px;
+    
+}
+
+input{
+    background-color:#F2B90F;
+    color: #214029;
+    border-radius: 30px;
+}
+
+.breadcrumb{
+    display: inline-flex;
+    margin-left: 50px;
+   list-style: none;
+   font-family:EB Garamond ;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+ul.breadcrumb li+li:before {
+    padding: 10px;
+    color:#F2B90F;
+    content: ">";
+ }
+
+.breadcrumb li a::before {
+    left: -10px;
+    border-left-color: transparent;}
+
+.breadcrumb a:hover{
+    color: #355911;
+}
+
+.breadcrumb a {
+    color: #132623;
+    text-decoration: none;
+}
+
+#description a {
+    color: #F2B90F;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #325935;
+}
+
+
+#YouTube{
+    color: #F2B90F;
+    font-family: EB Garamond;
+    font-size: 15px;
+    
+}
+
+#youtube-logo{
+   height: 100px;
+   margin-left: 150px;
+}
+
+#Instagram{
+    color: #F2B90F;
+    font-family: EB Garamond;
+    font-size: 15px;
+    
+}
+
+
+#instagram-logo{
+    height: 100px;
+    margin-left: 150px;
+ }
+
+
+ #table-header{
+    color: #F2B90F;
+    text-align: start;
+    font-family: Qwitcher Grypen , Satisfy;
+    font-size: 30px;
+    margin-left: 30px;
+ }
+
+ #quote{
+    color: #F2B90F;
+    font-family: Qwitcher Grypen , Satisfy;
+    font-size: 40px;
+ }
+
+ footer{
+    background-image: url(footer.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 75px;
+   background-position: center;
+ }
+
+ #table{
+    background-color: #5E8C5D;
+ }
+
+ .p-container{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+ #p-1{
+background-image: url(p1.jpg);
+background-size: cover;
+color: #132623;
+border-radius: 10px;
+ }
+
+ #p-2{
+    background-image: url(p2.jpg);
+    background-size: cover;
+    color: #132623;
+    border-radius: 10px;
+ }
+
+ #p-3{
+    background-image: url(p3.jpg);
+    background-size: cover;
+    color: #132623;
+    border-radius: 10px;
+ }

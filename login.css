@@ -1,0 +1,42 @@
+body{
+    background-color:#355911;
+}
+main{
+  text-align: center;
+  margin-top: 275px;
+  font-family: Noto Serif;
+}
+
+h3{
+    color: #F2B90F;
+    font-family: Qwitcher Grypen , Satisfy;
+    font-size: 50px;
+   
+}
+
+label{ 
+    color: #F2B90F;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+
+input{
+background-color: #97BF7A;
+border-radius: 30px;
+
+}
+.submit{
+    font-weight: 700;
+    font-style: italic;
+    border-radius:30px;
+    width: 200px;
+    color: #325935;
+    background-color:#F2B90F;
+    border: bold ;
+    font-family: EB Garamond;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
